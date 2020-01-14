@@ -361,79 +361,24 @@ button{
 .green:hover{
     background-color:#1bd31b; }
 
-.form{
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:rgba(0, 0, 0, 0.8);
-  z-index:9999999999;
-  display:none; }
+.form button{
+  border-radius:50px !important; }
 
-.form:target{
-    display:block;
-    pointer-events:auto; }
+.form button:hover{
+    background-color:#58da17 !important; }
 
-.form .wrap{
-    max-width:479px;
-    position:relative;
-    top:50%;
-    left:50%;
-    -webkit-transform:translate(-50%, -50%);
-    -ms-transform:translate(-50%, -50%);
-    transform:translate(-50%, -50%);
-    border-radius:6px;
-    box-shadow:0 10px 35px rgba(33, 37, 52, 0.4);
-    background-color:#ffffff;
-    color:black; }
+.amoforms_iframe{
+  position:fixed !important;
+  top:50% !important;
+  left:50% !important;
+  -webkit-transform:translate(-52%, -46%) !important;
+  -ms-transform:translate(-52%, -46%) !important;
+  transform:translate(-52%, -46%) !important;
+  margin-top:0 !important;
+  max-width:450px; }
 
-.form .close-modal{
-    position:absolute;
-    right:6px;
-    top:6px;
-    cursor:pointer;
-    z-index:2000000;
-    width:25px;
-    height:25px;
-    -webkit-transform:rotate(45deg);
-    -ms-transform:rotate(45deg);
-    transform:rotate(45deg); }
-
-.form .close-modal:before{
-      position:absolute;
-      top:50%;
-      left:50%;
-      -webkit-transform:translate(-50%, -50%);
-      -ms-transform:translate(-50%, -50%);
-      transform:translate(-50%, -50%);
-      content:'';
-      width:20px;
-      height:1px;
-      background-color:black; }
-
-.form .close-modal:after{
-      position:absolute;
-      top:50%;
-      left:50%;
-      -webkit-transform:translate(-50%, -50%);
-      -ms-transform:translate(-50%, -50%);
-      transform:translate(-50%, -50%);
-      content:'';
-      width:1px;
-      height:20px;
-      background-color:black; }
-
-.form .amoforms_iframe{
-    height:469px !important;
-    position:relative !important;
-    right:53% !important;
-    -webkit-transform:translateX(50%) !important;
-    -ms-transform:translateX(50%) !important;
-    transform:translateX(50%) !important; }
-
-.form .amoforms-footer-copyright{
-    display:none !important; }
+.amoforms-footer-copyright{
+  display:none !important; }
 
 .footer{
   margin-bottom:50px; }
