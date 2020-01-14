@@ -368,18 +368,15 @@ button{
     background-color:#58da17 !important; }
 
 .amoforms_iframe{
-  position:fixed !important;
-  top:50% !important;
-  left:50% !important;
-  -webkit-transform:translate(-52%, -50%) !important;
-  -ms-transform:translate(-52%, -50%) !important;
-  transform:translate(-52%, -50%) !important;
-  margin-top:0 !important;
   max-width:450px;
-  height:617px !important; }
+  height:538px !important;
+  background-color:#fff; }
 
 .amoforms-footer-copyright{
   display:none !important; }
+
+#amofroms_main_wrapper{
+  margin-left:13px !important; }
 
 .footer{
   margin-bottom:50px; }
