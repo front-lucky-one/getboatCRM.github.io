@@ -361,21 +361,6 @@ button{
 .green:hover{
     background-color:#1bd31b; }
 
-.form button{
-  border-radius:50px !important; }
-
-.form button:hover{
-    background-color:#58da17 !important; }
-
-.amoforms_iframe{
-  height:538px !important; }
-
-.amoforms-footer-copyright{
-  display:none !important; }
-
-#amofroms_main_wrapper{
-  margin-left:13px !important; }
-
 .footer{
   margin-bottom:50px; }
 
